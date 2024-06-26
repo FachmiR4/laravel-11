@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/halo', function (){
-    echo 'hello';
+    return view('coba.hallo');
 });
