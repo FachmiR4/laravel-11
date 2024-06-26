@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\halo\Halocontroller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/halo', function (){
-    return view('coba.hallo');
-});
+// Route::get('/halo', function (){
+//     return view('coba.hallo');
+// });
+
+Route::get('/halo', [Halocontroller::class, 'index']);

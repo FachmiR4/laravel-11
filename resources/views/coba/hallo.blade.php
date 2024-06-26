@@ -6,6 +6,6 @@
     <title>Hello world</title>
 </head>
 <body>
-    <H1>Hello World</H1>
+    <H1>Hello {{ $namaOrang }} dari blade</H1>
 </body>
 </html>
