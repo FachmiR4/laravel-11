@@ -18,8 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/halo', function (){
-//     return view('coba.hallo');
-// });
-
 Route::get('/halo', [Halocontroller::class, 'index']);
+
+Route::get('/todo', function () {
+    return view('todo.app');
+});
+

@@ -1,0 +1,4 @@
+cmd /> php artisan serve -> untuk menjalankan laravel
+cmd /> php artisan make:controller <nama_folder>/<nama_file> -> untuk membuat controller
+cmd /> php artisan make:migration create_<nama_file>_table -> untuk membuat file migration
+cmd /> php migrate -> berfungsi untuk memasukan skema migrate ke database
