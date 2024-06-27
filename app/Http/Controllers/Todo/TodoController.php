@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Todo;
 
 use App\Http\Controllers\Controller;
+use App\Models\Todo;
 use Illuminate\Http\Request;
 
 class TodoController extends Controller
@@ -40,8 +41,14 @@ class TodoController extends Controller
         ],[
             'task.required'=> 'Isian taks wajib diisikan',
             'task.min'=>'Minimal isian untuk task minimal 3',
-            'task,max'=>'maximum isian untuk task maximal 25'
+            'task.max'=>'maximum isian untuk task maximal 25'
         ]);
+        $data = [
+            'taks' => $request->input('task')
+        ];
+
+        Todo::create($data);
+        return redirect('/todo')->with('success','berhasil simpan data');
     }
 
     /**
