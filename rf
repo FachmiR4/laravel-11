@@ -1,0 +1,29 @@
+[33mcommit e2ba366e34c80ab4622cc419f0235638313a0ec4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: FachmiR4 <fachmiramadhan.fr@gmail.com>
+Date:   Thu Jun 27 08:41:46 2024 +0700
+
+    membuat proses simpan menggunakan daydump dd() part-4
+
+[33mcommit dbee2ca2dffb9826ffeba22a7c8af0dc551e52a9[m
+Author: FachmiR4 <fachmiramadhan.fr@gmail.com>
+Date:   Wed Jun 26 22:04:50 2024 +0700
+
+    membuat skema pada database part-3
+
+[33mcommit b25e146cb25074b99557fc497a5cafcc36ec6978[m
+Author: FachmiR4 <fachmiramadhan.fr@gmail.com>
+Date:   Wed Jun 26 14:32:51 2024 +0700
+
+    belajar konsep controller part-2
+
+[33mcommit e335bf9ee13dc74bd6c9ccd3db6a0e92099c9de4[m
+Author: FachmiR4 <fachmiramadhan.fr@gmail.com>
+Date:   Wed Jun 26 14:10:54 2024 +0700
+
+    belajar blade tamplating part-1
+
+[33mcommit ea87b73aebee9046a73de9c67312520f4dff3056[m
+Author: FachmiR4 <fachmiramadhan.fr@gmail.com>
+Date:   Wed Jun 26 14:04:41 2024 +0700
+
+    initial laravel-11
